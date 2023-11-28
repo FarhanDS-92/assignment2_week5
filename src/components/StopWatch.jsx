@@ -26,7 +26,7 @@ export default function StopWatch() {
   return (
     <div>
       <h1>Stopwatch</h1>
-      <p>{seconds} seconds</p>
+      <p className="secs">{seconds} seconds</p>
       <button onClick={handleStart}>Start</button>
       <button onClick={handleStop}>Stop</button>
       <button onClick={handleClear}>Clear</button>
